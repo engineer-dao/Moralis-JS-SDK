@@ -20,7 +20,8 @@ export default class MagicWeb3Connector extends AbstractWeb3Connector {
 
     let Magic;
     try {
-      Magic = require('magic-sdk')?.Magic;
+      // Remove temporarily
+      // Magic = require('magic-sdk')?.Magic;
     } catch (error) {
       // Do nothing. User might not need walletconnect
     }

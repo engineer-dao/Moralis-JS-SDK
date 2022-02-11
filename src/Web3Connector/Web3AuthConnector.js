@@ -14,7 +14,8 @@ export class Web3Auth extends AbstractWeb3Connector {
     // Initalizing Web3Auth and getting constants
     let Web3Auth;
     try {
-      Web3Auth = require('@web3auth/web3auth')?.Web3Auth;
+      // Remove temporarily
+      // Web3Auth = require('@web3auth/web3auth')?.Web3Auth;
     } catch {
       // Do Nothing Individual Checks are done below
     }

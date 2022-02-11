@@ -36,7 +36,8 @@ class WalletConnectWeb3Connector extends AbstractWeb3Connector {
       };
 
       try {
-        WalletConnectProvider = require('@walletconnect/web3-provider')?.default;
+        // Remove temporarily
+        // WalletConnectProvider = require('@walletconnect/web3-provider')?.default;
       } catch (error) {
         // Do nothing. User might not need walletconnect
       }
